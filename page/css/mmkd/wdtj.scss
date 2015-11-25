@@ -1,0 +1,189 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+@import "shop.scss";
+.buy-foot{
+  font-family:'Microsoft YaHei';
+  .tj-shop{
+    overflow: hidden;
+    background-color: #fff;
+    padding: rem-calc(10px) width-cala(10px);
+    max-width:width-cala(640px);
+    margin:0 auto;
+    .tj-ms {
+      font-size: rem-calc(24px);
+      width: 50%;
+      float: left;
+      height: rem-calc(75px);
+      line-height: rem-calc(75px);
+      padding-left: width-cala(10px);
+    }
+    .tj-btn{
+      width: width-cala(200px);
+      height: rem-calc(75px);
+      line-height: rem-calc(75px);
+      float: right;
+      text-align: center;
+      font-size: rem-calc(28px);
+      color: $fontcolor;
+      border:1px solid $fontcolor;
+    }
+    .cur{
+      background-color: $fontcolor;
+      color:#fff;
+    }
+  }
+}
+
+.A-wdtj{
+  font-family:'Microsoft YaHei';
+  height:100%;
+  .head{
+    width:100%;overflow:hidden;
+    .title{
+      width:100%;
+      clear: both;
+      border-bottom:1px solid #ddd;
+      background-color: #fff;
+      height:rem-calc(75px);
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      line-height:rem-calc(69px);
+      z-index: 99;
+      .cur{
+        color:$fontcolor;
+        border-bottom:1px solid $fontcolor;
+      }
+      .lab{
+        display: inline-block;
+        font-size:rem-calc(22px);
+        text-align: center;
+        padding: 0 rem-calc(20px);
+        position: relative;
+
+      }
+    }
+    .tj-list{
+      overflow: hidden;
+      .lab{
+        width:33.3%;
+        padding:0;
+
+        margin: rem-calc(10px) 0;
+        height: rem-calc(55px);
+        line-height: rem-calc(55px);
+      }
+      .zjr{
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+      }
+      .cur{
+        border-bottom:none;
+      }
+    }
+  }
+  .sp-list{
+    background: #fff;
+    overflow: hidden;
+    padding: rem-calc(25px) width-cala(20px);
+    height:rem-calc(120px);
+    border-bottom: 1px solid #ddd;
+    display: block;
+    .tu{
+      width:auto;
+      height:rem-calc(120px);
+      margin-right:width-cala(10px);
+      float:left;
+    }
+    .l-xx{
+      width:width-cala(420px,600px);
+      float:left;
+      .x-title{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+      .x-jj{
+        color: #999999;
+        height: rem-calc(40px);
+        line-height: rem-calc(40px);
+        font-size:rem-calc(18px);
+        label{font-size:rem-calc(20px)}
+        span{
+          margin-right: width-cala(10px);
+          font-size:rem-calc(24px);
+        }
+        .red{
+          font-size:rem-calc(24px)
+        }
+      }
+      .x-je{
+        text-overflow: ellipsis;
+        white-space:nowrap;
+        overflow: hidden;
+        height:rem-calc(40px);
+        line-height:rem-calc(40px);
+        .je-left{
+          font-size:rem-calc(20px);
+          color:#999;
+        }
+      }
+    }
+  }
+  .box{
+    height: rem-calc(80px);
+    line-height: rem-calc(80px);
+    text-align: right;
+    background-color: #fff;
+    margin-bottom:rem-calc(20px);
+    .b-btn{
+      display: inline-block;
+      margin-right:rem-calc(30px);
+      border:1px solid #999;
+      width:width-cala(130px);
+      text-align: center;
+      height:rem-calc(50px);
+      line-height:rem-calc(50px);
+      -webkit-border-radius: rem-calc(5px);
+      -moz-border-radius: rem-calc(5px);
+      border-radius: rem-calc(5px);
+    }
+    .b-clone{
+      background-color: #ddd;
+      color:#666;
+      border:none;
+    }
+    .cur{
+      border:1px solid $fontcolor;
+      color:$fontcolor;
+    }
+  }
+  .ti-si{
+    text-align: center;
+    margin:rem-calc(20px) 0;
+    font-size:rem-calc(20px);
+    color:#999;
+  }
+  .ji-tj{
+    display: block;
+    text-align: center;
+    margin:rem-calc(20px) width-cala(20px);
+    width:width-cala(600px,640px);
+    height:rem-calc(75px);
+    line-height: rem-calc(75px);
+    background-color: $fontcolor;
+    color:#fff;
+    font-size:rem-calc(28px);
+  }
+  .pp-title{
+      font-size:rem-calc(26px);
+      padding:rem-calc(20px) 0 0 width-cala(20px);
+  }
+}
+.yzxx{
+  width: width-cala(620px);
+}

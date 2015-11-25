@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <title>鍠嗗厰楹昏姳</title>
+    <!--<link rel="stylesheet" href="http://s.zzt.tm/zt/zztma/css/kfrx.css" />-->
+    <link rel="stylesheet" href="http://s.zzt.tm/zt/zztma/css/kfrx.css" />
+</head>
+<body>
+<div class="A-kfrx swiper-container" >
+    <div class="swiper-wrappe">
+        <div class="swiper-slide">
+            <img src="http://s.zzt.tm/zt/zztma/img/spring/logo.png" class="logo" />
+            <p class="red">400-0932-333</p>
+            <p class="tis">充满感情的服务热线</p>
+            <p class="gzsj">工作时间：9:00--18:30 全年无休</p>
+        </div>
+        <div class="swiper-slide">
+            <img src="http://s.zzt.tm/zt/zztma/img/spring/logo.png" class="logo" />
+            <img src="http://s.zzt.tm/zt/zztma/img/spring/ewm.png" class="ewm" />
+            <p class="ti-si">扫描或者微信搜索<span class="red">“麻麻开店”</span></p>
+            <div class="ti-si">微信中请长按二维码，点识别二维码关注我们</div>
+        </div>
+        <div class="swiper-slide">
+            <img src="http://s.zzt.tm/zt/zztma/img/spring/logo.png" class="logo" />
+            <img src="http://s.zzt.tm/zt/zztma/img/spring/qe.png" class="qe" />
+            <a href="#" class="zxzx">在线咨询</a>
+        </div>
+    </div>
+    <div class="page">
+        <li class="radius-cur"></li>
+        <li></li>
+        <li></li>
+    </div>
+</div>
+<script src="../../lib/jquery.js"></script>
+<script src="../../lib/swipe.js"></script>
+<script src="../../entries/util/util.js"></script>
+<script>
+    $(function () {
+        var $container=$('.swiper-container')[0];
+         var slider_trig=$(".page>li");
+        Util.swipeTab($container,slider_trig,"radius-cur");
+    })
+</script>
+</body>
+</html>

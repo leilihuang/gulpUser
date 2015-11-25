@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+@import "shop.scss";
+.tj-shop{
+  height: rem-calc(100px);
+  background-color: #fff;
+  line-height: rem-calc(100px);
+  padding: 0 width-cala(20px);
+  .tj-ms{
+    width: 50%;
+    float: left;
+    font-size: rem-calc(24px);
+    .red{
+      font-size: rem-calc(28px);
+    }
+  }
+  .tj-btn{
+    width: width-cala(200px);
+    height: rem-calc(75px);
+    line-height: rem-calc(75px);
+    float: right;
+    background-color: $fontcolor;
+    color: #fff;
+    font-size: rem-calc(28px);
+    text-align: center;
+    display: inline-block;
+    margin-top: rem-calc(12px);
+  }
+  .cur{
+    border:1px solid $fontcolor;
+    color:$fontcolor;
+    background-color: #fff;
+  }
+}

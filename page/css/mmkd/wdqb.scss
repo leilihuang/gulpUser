@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+@import "xjsr";
+.A-wdqb{
+  font-family:"Microsoft YaHei";
+  height:100%;
+  .red{
+    color:#fe5e5e;
+  }
+  .box{
+    background:#fff;
+    border-bottom:1px solid #ddd;
+    .je{
+      height:rem-calc(148px);
+      padding: 0 width-cala(20px);
+      .xjje{
+        width:48%;
+        float:left;
+        margin-top:width-cala(30px);
+        span{
+          display: block;
+        }
+        .pt{
+          font-size:rem-calc(20px);
+          color:#999999;
+        }
+        .red{
+          font-size:rem-calc(50px);
+        }
+      }
+      .rig{
+        border-left: 1px solid #ddd;
+        padding-left: width-cala(20px);
+      }
+    }
+    .xj-sr{
+      padding:0 width-cala(20px);
+      height:rem-calc(100px);
+      line-height:rem-calc(100px);
+      div{
+        float:left;
+        width:50%;
+      }
+      .xjsr{
+        font-size:rem-calc(30px);
+      }
+      .red{
+        font-size:rem-calc(36px);
+        text-align:right;
+      }
+    }
+  }
+  .zj{
+    padding-left: width-cala(20px);
+    background-color: #fff;
+  }
+  .sr-zc{
+    margin:width-cala(30px) width-cala(20px) width-cala(20px) width-cala(20px);
+    border:rem-calc(2px) solid #fe5e5e;
+    font-size:rem-calc(24px);
+    overflow: hidden;
+    -webkit-border-radius: rem-calc(10px);
+    -moz-border-radius: rem-calc(10px);
+    border-radius:rem-calc(10px);
+    .sr,.zc{
+      width:50%;
+      height:rem-calc(58px);
+      line-height:rem-calc(58px);
+      float:left;
+      text-align:center;
+      color:#fe5e5e;
+    }
+    .cur{
+      background-color: #fe5e5e;
+      color:#fff;
+    }
+  }
+  .xs-tc{
+    overflow: hidden;
+    background:#fff;
+    padding:0 width-cala(20px) 0 0;
+    display: block;
+    border-bottom:1px solid #ddd;
+    .xs,.tc{
+      float:left;
+      width:50%;
+      font-size:rem-calc(26px);
+      height:rem-calc(79px);
+      line-height:rem-calc(79px);
+    }
+    .xs{
+      color:#666666;
+    }
+    .tc{
+      text-align:right;
+      span{
+        font-size:rem-calc(28px);
+        color:#666666;
+      }
+      i{
+        font-size:rem-calc(24px);
+        color:#666666;
+        float:right;
+      }
+    }
+  }
+  .duli{
+    margin-bottom:rem-calc(20px);
+    padding-left:width-cala(20px);
+  }
+  .ty{
+    .xs{
+      color:#333;
+    }
+  }
+}

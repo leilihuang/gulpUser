@@ -1,0 +1,102 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+.A-kfrx{
+  font-size:rem-calc(22px);
+  font-family:'Microsoft YaHei';
+  height: 100%;
+  .logo{
+    padding-top:rem-calc(70px);
+    width:width-cala(150px);
+    height:auto;
+    margin:0 auto;
+    background-size: 100%;
+    display: block;
+  }
+  .red{
+    font-size:rem-calc(35px);
+    padding-top:rem-calc(180px);
+    text-align: center;
+  }
+  .tis{
+    margin-top:rem-calc(55px);
+    text-align: center;
+  }
+  .gzsj{
+    margin-top:rem-calc(20px);
+    text-align: center;
+  }
+  .ewm{
+    width:width-cala(305px);
+    height:auto;
+    margin:0 auto;
+    display: block;
+    padding-top:rem-calc(70px);
+  }
+
+  .ti-si{
+    text-align:center;
+    margin-top:rem-calc(20px);
+    .red{
+      font-size:rem-calc(22px);
+    }
+  }
+  .qe{
+    display: block;
+    width:width-cala(116px);
+    margin: 0 auto;
+    height:auto;
+    padding-top:rem-calc(170px);
+  }
+  .zxzx{
+    display: block;
+    width:width-cala(169px);
+    height:rem-calc(49px);
+    line-height:rem-calc(49px);
+    border:1px solid $fontcolor;
+    margin:rem-calc(50px) auto;
+    text-align: center;
+    color:$fontcolor;
+  }
+
+}
+.swiper-container{
+  position:relative;
+  overflow: hidden;
+  visibility: visible;
+  .swiper-wrappe{
+    position:relative;
+    overflow: hidden;
+    .swiper-slide{
+      float: left;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+  }
+  .page{
+    width:100%;
+    margin-top:rem-calc(50px);
+    height:rem-calc(50px);
+    text-align: center;
+    li{
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      right:width-cala(20px);
+      bottom:rem-calc(30px);
+      overflow: hidden;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      border-radius: 100%;
+      background-color: #999;
+    }
+    .radius-cur{
+      background-color: #333;
+    }
+    .radius-cur{
+
+    }
+  }
+}

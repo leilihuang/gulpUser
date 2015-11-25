@@ -1,8 +1,8 @@
 var gulp=require('gulp'),
     less=require('gulp-less'),
+    sass=require('gulp-sass'),
     watch=require('gulp-watch'),
     clean=require('gulp-clean'),
-    //imagemin=require('gulp-imagemin'),
     cssmin=require('gulp-minify-css'),
     js=require('gulp-requirejs-optimize'),
     autoprefix=require('gulp-autoprefixer'),
@@ -23,21 +23,17 @@ gulp.task('less', function () {
     .pipe(gulp.dest('./dist/css'));
 });
 
+gulp.task('sass', function () {
+    gulp.src('./page/css/**/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./dist/css'));
+});
+
 gulp.task('jsConcat', function () {
     gulp.src('./entries/action/*.js')
     .pipe(js())
     .pipe(gulp.dest('./dist/js'))
 });
-
-/*gulp.task('images', function () {
-    gulp.src('./dist/img/!*')
-    .pipe(imagemin({
-            optimizationLevel:7,
-            progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            use: [pngquant()]
-    }))
-});*/
 
 gulp.task('spring', function () {
     var timestamp=+new Date();
@@ -74,5 +70,5 @@ gulp.task('ftp', function () {
             remotePath:'/gulp'
      }))
 });
-gulp.task('default',['clear','copy','less','jsConcat','spring','watch']);
+gulp.task('default',['copy','less','jsConcat','spring','watch']);
 gulp.task('pro',['copy','less','jsConcat','spring']);

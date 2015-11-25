@@ -1,0 +1,207 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+.A-xjsr{
+  font-family:"Microsoft YaHei";
+  height:100%;
+  .red{
+    color:$fontcolor;
+  }
+  .box{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding: 0 width-cala(20px);
+    .je{
+      height:rem-calc(168px);
+      .xjje{
+        width:100%;
+        margin-top:width-cala(30px);
+        span{
+          display: block;
+        }
+        .pt{
+          font-size:rem-calc(20px);
+          color:#999999;
+        }
+        .red{
+
+          font-size:rem-calc(80px);
+        }
+      }
+      .rig{
+        border-left: 1px solid #ddd;
+        padding-left: width-cala(20px);
+      }
+    }
+    .xj-sr{
+      padding:0 width-cala(20px);
+      height:rem-calc(100px);
+      line-height:rem-calc(100px);
+      div{
+        float:left;
+        width:50%;
+      }
+      .xjsr{
+        font-size:rem-calc(30px);
+      }
+      .red{
+        font-size:rem-calc(36px);
+        text-align:right;
+      }
+    }
+    .xs-tic{
+      width:100%;
+      height:rem-calc(50px);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      .kk-yy{
+        font-size:rem-calc(20px);
+      }
+      .ddh{
+        width: 70%;
+        float:left;
+        font-size:rem-calc(24px);
+        height:rem-calc(60px);
+        line-height:rem-calc(60px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        span{
+          font-size:rem-calc(20px);
+          color:#888888;
+        }
+      }
+      .red{
+        width:30%;
+        float:left;
+        height:rem-calc(60px);
+        line-height:rem-calc(60px);
+        text-align: right;
+      }
+      .tui-k{color:$green;}
+
+      .mj,.sj{
+        font-size:rem-calc(18px);
+        display: block;
+        color:#999999;
+        width:50%;
+        float:left;
+      }
+      .sj{
+        text-align: right;
+      }
+
+    }
+    .zj-line{
+      line-height:rem-calc(40px);
+    }
+  }
+  .sp-list{
+    background: #fff;
+    overflow: hidden;
+    padding: rem-calc(25px) width-cala(20px);
+    height:rem-calc(120px);
+    border-bottom: 1px solid #ddd;
+    display: block;
+    .tu{
+      width:auto;
+      height:rem-calc(120px);
+      margin-right:width-cala(10px);
+      float:left;
+    }
+    .l-xx{
+      width:width-cala(420px,600px);
+      float:left;
+      .x-title{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+      .x-jj{
+        color: #999999;
+        height: rem-calc(40px);
+        line-height: rem-calc(40px);
+        font-size:rem-calc(20px);
+        span{
+          margin-right: width-cala(20px);
+        }
+      }
+      .x-je{
+        span{
+          display: inline-block;
+          width:50%;
+        }
+        .je-left{
+          font-size:rem-calc(24px);
+        }
+        .red{
+          font-size:rem-calc(20px);
+          text-align:right;
+        }
+      }
+    }
+  }
+  .ts-xx{
+    height:rem-calc(55px);
+    line-height: rem-calc(55px);
+    text-align:center;
+    font-size:rem-calc(20px);
+    color:#999999;
+  }
+  .zj{
+    padding-left: width-cala(20px);
+    background-color: #fff;
+  }
+  .sr-zc{
+    //margin:width-cala(30px) width-cala(18px) width-cala(20px) width-cala(18px);
+    margin:20px auto;
+    width:width-cala(600px,640px);
+    border:1px solid $fontcolor;
+    font-size:rem-calc(22px);
+    overflow: hidden;
+    -webkit-border-radius: rem-calc(10px);
+    -moz-border-radius: rem-calc(10px);
+    border-radius:rem-calc(10px);
+    @include box-sizing;
+    .fx-sr,.fx-zc{
+      width:50%;
+    }
+    .sr,.zc{
+      width:33.33%;
+      @include box-sizing;
+    }
+    .sr,.zc,.fx-sr,.fx-zc{
+      height:rem-calc(56px);
+      line-height:rem-calc(56px);
+      float:left;
+      text-align:center;
+      color:$fontcolor;
+    }
+    .zjbox{
+      border-left:1px solid $fontcolor;
+      border-right:1px solid $fontcolor;
+    }
+    .cur{
+      background-color: $fontcolor;
+      color:#fff;
+      //width:33.333%;
+    }
+    .fx-cur{
+      background-color: $fontcolor;
+      color:#fff;
+    }
+  }
+  .duli{
+    margin-bottom:rem-calc(20px);
+    padding-left:width-cala(20px);
+  }
+  .ts-xx{
+    height:rem-calc(120px) ;
+    line-height:rem-calc(120px);
+  }
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+@import "shop.scss";
+.gl-dz{
+  float:right;
+  font-size:rem-calc(22px);
+}
+.addAddress{
+  height:100%;
+  font-family:'Microsoft YaHei';
+  position: relative;
+  .box{
+    background-color: #fff;
+  }
+  .txts{
+    border-bottom:1px solid #ddd;
+    height:rem-calc(70px);
+    padding-left: width-cala(20px);
+    .txt{
+      width:100%;
+      border:none;
+      font-size:rem-calc(22px);
+      height:rem-calc(50px);
+      padding:rem-calc(9px) 0;
+
+    }
+  }
+  .tis-xx{
+    font-size:rem-calc(18px);
+    padding:rem-calc(10px) width-cala(20px) rem-calc(20px) width-cala(20px);
+    background:#f8f8f8;
+  }
+  .textarea{
+    min-height: rem-calc(150px);
+    height:auto;
+    .lab{
+      height:auto;
+    }
+    .txt{
+      height:auto;
+      padding:0;
+      min-height:rem-calc(149px);
+    }
+  }
+  .sel-box{
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    .tit{
+      display: block;
+      float: left;
+      width: 12%;
+      height:rem-calc(50px);
+      line-height:rem-calc(50px);
+      padding:rem-calc(9px) 0;
+      font-size: rem-calc(22px);
+      padding-left: width-cala(20px);
+      color: #333;
+    }
+    .select-cur{
+      height: rem-calc(70px);
+      width: 80%;
+      border: none;
+      font-size: rem-calc(22px);
+      border:none;
+      background:url("../img/test/arrow-xl.png") right no-repeat;
+    }
+    i{
+      color: #999;
+      font-size: rem-calc(22px);
+      display: block;
+      position: absolute;
+      right: width-cala(20px);
+      top: rem-calc(20px);
+    }
+  }
+  .submit-order{
+    margin-top:rem-calc(30px);
+  }
+}
+.edit{
+  .sfz{
+    margin-top:rem-calc(20px);
+    background-color: #fff;
+
+    .lab{
+    }
+  }
+  .txts{
+    .lab{
+      width: 30%;
+      display: block;
+      float: left;
+      font-size: rem-calc(22px);
+      height: rem-calc(50px);
+      padding:rem-calc(8px) 0;
+      line-height: rem-calc(50px);
+      color: #333;
+    }
+    .txt{
+      width: 70%;
+    }
+  }
+  .sfzbox{
+    overflow: hidden;
+    margin-top:rem-calc(30px);
+    .ipt{
+      width:40%;
+      height:rem-calc(145px);
+      float:left;
+      position:relative;
+      margin-left:width-cala(20px);
+      i{
+        position: absolute;
+        right: width-cala(10px);
+        font-size: rem-calc(30px);
+      }
+      input{
+        width:100%;
+        height:100%;
+        font-size:0;
+        opacity:0;
+        position:absolute;
+        top:0;
+        left:0;
+      }
+      img{
+        width:auto;
+      }
+    }
+  }
+}

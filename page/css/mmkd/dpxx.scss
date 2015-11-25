@@ -1,0 +1,89 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+@import "shop.scss";
+.A-dpxx{
+  font-family:"Microsoft YaHei";
+  position:relative;
+  height:100%;
+  .title{
+    background:#fff;
+    border-bottom:1px solid #dddddd;
+    .bg{
+      height:rem-calc(130px);
+      line-height:rem-calc(130px);
+      padding:0 width-cala(20px);
+      overflow: hidden;
+      .dptx{
+        width:width-cala(520px,600px);
+        float:left;
+        font-size:rem-calc(24px);
+      }
+      img{
+        display: block;
+        width: width-cala(80px, 600px);
+        height:auto;
+        float:left;
+        margin-top:rem-calc(30px);
+      }
+    }
+    .textarea{
+      min-height:rem-calc(150px);
+      .dpjj-v{
+        border:none;
+        min-height:rem-calc(130px);
+        padding-top:rem-calc(20px);
+      }
+    }
+    .dpmc{
+      height:rem-calc(80px);
+      line-height:rem-calc(80px);
+      padding:0 width-cala(20px);
+      overflow: hidden;
+      span{
+        display: block;
+        float:left;
+      }
+      .tit{
+        width:50%;
+        font-size:rem-calc(24px);
+      }
+      .val{
+        width:49%;
+        font-size:rem-calc(22px);
+        color:#999999;
+        text-align:right;
+        border:none;
+      }
+      .dpjj{
+        font-size:rem-calc(24px);
+        width:30%;
+      }
+      .dpjj-v{
+        font-size:rem-calc(22px);
+        color:#999999;
+        text-align:left;
+        width:70%;
+      }
+    }
+  }
+  .jes{
+    font-size:rem-calc(20px);
+    color:#999999;
+    padding:rem-calc(20px);
+    line-height: rem-calc(28px);
+  }
+  .wc{
+    width:width-cala(600px);
+    margin:0 width-cala(20px);
+    height:rem-calc(75px);
+    line-height:rem-calc(75px);
+    font-size:rem-calc(26px);
+    color:#fff;
+    background:#fe5e5e;
+    position:absolute;
+    bottom:30px;
+    text-align:center;
+  }
+}

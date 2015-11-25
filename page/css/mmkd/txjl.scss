@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import "../lib/_reset";
+@import "../lib/_rem-calc";
+@import "../public.scss";
+.A-txjl {
+  font-family: 'Microsoft YaHei';
+  height: 100%;
+  .box{
+    background-color: #fff;
+    border-bottom:1px solid #ddd;
+    padding: 0 rem-calc(20px);
+    .tjshz{
+      color:#ff9900;
+    }
+    .txcg{
+      color:$green;
+    }
+    .txsb{
+      color:#fe5e5e;
+    }
+    i{
+      display: block;
+      font-size:rem-calc(36px);
+      float: left;
+      height:rem-calc(100px);
+      line-height:rem-calc(100px);
+      margin-right:width-cala(20px);
+    }
+    .zj{
+      width:90%;
+      float:left;
+    }
+    .zbox{
+      height:rem-calc(60px);
+      line-height: rem-calc(60px);
+      border-top: 1px dashed #ddd;
+    }
+    .xs-tic{
+      width:100%;
+      height:rem-calc(40px);
+      line-height:rem-calc(40px);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      .kk-yy{
+        font-size:rem-calc(20px);
+      }
+      .ddh{
+        width: 70%;
+        float:left;
+        font-size:rem-calc(24px);
+        height:rem-calc(50px);
+        line-height:rem-calc(50px);
+        span{
+          font-size:rem-calc(20px);
+          color:#888888;
+        }
+      }
+      .red{
+        font-size:rem-calc(28px);
+        width:30%;
+        float:left;
+        height:rem-calc(50px);
+        line-height:rem-calc(50px);
+        text-align: right;
+        color:#666666;
+
+      }
+      .mj,.sj{
+        font-size:rem-calc(18px);
+        display: block;
+        color:#999999;
+        width:50%;
+        float:left;
+      }
+      .sj{
+        text-align: right;
+      }
+
+    }
+  }
+  .ti-shi{
+    text-align: center;
+    width:width-cala(200px);
+    margin:rem-calc(30px) auto;
+    font-size:rem-calc(20px);
+    color:#999;
+  }
+}
