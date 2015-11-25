@@ -56,7 +56,8 @@ gulp.task('clear', function () {
 
 gulp.task('watch', function () {
     gulp.watch('./entries/**/*.js',['jsConcat']);
-    gulp.watch('./page/css/*.less',['less']);
+    gulp.watch('./page/css/**/*.less',['less']);
+    gulp.watch('./page/css/**/*.scss',['sass']);
     gulp.watch('./page/img/*',['copy']);
 });
 
