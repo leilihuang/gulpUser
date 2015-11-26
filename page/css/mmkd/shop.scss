@@ -162,7 +162,7 @@ button {
   font-size:  rem-calc(24px);
   color: $fontcolor; overflow: hidden;
   a{
-    color: $fontcolor; display: block; width: 102%; height: 101%; margin: 0 auto
+    color: $fontcolor; display: block; width: 100%; height: 100%; margin: 0 auto
   }
   li{
     display: block; float: left; width: 50%; height: rem-calc(56px);
@@ -176,10 +176,10 @@ button {
 }
 
 //浜у搧鍒楄〃
-.zzttm-bd{ display: block; clear: both; width: width-cala(608px,608px); overflow: hidden; margin-top: rem-calc(16px);}
-.zzttm-list{ display: block; width: width-cala(600px,608px);  clear: both; overflow: hidden;letter-spacing:-.5em;}
+.zzttm-bd{ display: block; clear: both; width:100%; overflow: hidden; margin-top: rem-calc(16px);}
+.zzttm-list{ display: block; width:100%;  clear: both; overflow: hidden;letter-spacing:-.5em;}
 .zzttm-list li{
-  display: inline-block; width:width-cala(295px,626px); margin-right:width-cala(18px,626px); overflow: hidden; background:$white; margin-bottom: rem-calc(20px);  vertical-align: top;letter-spacing:0; border-bottom: 1px solid #ddd;
+  display: inline-block; width:width-cala(288px,608px); margin:0 width-cala(8px,608px); overflow: hidden; background:$white; margin-bottom: rem-calc(20px);  vertical-align: top;letter-spacing:0; border-bottom: 1px solid #ddd;
   div{
     position: relative; display: block; clear: both; overflow: hidden;
     .duty-free{
